@@ -22,7 +22,7 @@
 
 ## Contributing
 
-Thank you for considering contributing to the Larapress framework! The contribution guide can be found in the [Larapress documentation](https://Larapress.com/docs/contributions).
+Thank you for considering contributing to the Larapress CMS! The contribution guide can be found in the [Larapress documentation](https://Larapress.com/docs/contributions).
 
 ## Code of Conduct
 
