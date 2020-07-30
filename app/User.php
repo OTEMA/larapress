@@ -48,7 +48,7 @@ class User extends Authenticatable
 
         if ( ! $this->hasAnyRole($roles)) {
             auth()->logout();
-            abort(404);
+            return redirect()->back()->withErrors("You do not have permission to access this page")->withInput();
         }
     }
 
