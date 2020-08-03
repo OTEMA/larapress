@@ -43,12 +43,13 @@ class User extends Authenticatable
     public function checkRoles($roles) 
     {
         if ( ! is_array($roles)) {
-            $roles = [$roles];    
+            $roles = [$roles]; 
+            return false;   
         }
 
         if ( ! $this->hasAnyRole($roles)) {
             auth()->logout();
-            return redirect()->back()->withErrors("You do not have permission to access this page")->withInput();
+            abort(404);
         }
     }
 

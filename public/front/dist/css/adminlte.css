@@ -53,7 +53,20 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.social-signin.facebook {
+  background: #32508E;
+  color: #FFFFFF;
+}
 
+.social-signin.twitter {
+  background: #55ACEE;
+  color: #FFFFFF;
+}
+
+.social-signin.google {
+  background: #DD4B39;
+  color: #FFFFFF;
+}
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
